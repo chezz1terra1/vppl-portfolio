@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.photo-frame {
+  border: 10px solid #3498db; /* Цвет рамки (можете изменить на свой) */
+  padding: 20px;
+  border-radius: 15px; /* Радиус скругления углов (по желанию) */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
